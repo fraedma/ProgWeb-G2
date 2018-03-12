@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+
+
+</head>
+
+<body>
+    <main>
+        <table BORDER=5 CELLPADDING=10 CELLSPACING=10 bordercolor="red">
+            <tr v-for='  tarea in  tareas' border='50px '>
+                <td>{{ tarea.nombre }}</td>
+                <td>{{tarea.prioridad}}</td>
+            </tr>
+        </table>
+        <pre> {{ $data }}  </pre>
+    </main>
+</body>
+
+
+<Script src="https://unpkg.com/vue"></Script>
+<script src="app41.js"></script>
+</body>
+
+</html>
